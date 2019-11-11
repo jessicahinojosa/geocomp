@@ -11,3 +11,9 @@ def density (mass, volume):
     Calculate density
     """
     return mass / volume
+
+def friction():
+    """
+    Determine rock friction.
+    """
+    return 0.6
