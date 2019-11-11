@@ -1,0 +1,2 @@
+# geocomp
+Geocomputing tests
