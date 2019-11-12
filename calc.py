@@ -4,10 +4,16 @@ def acoustic_impedance(rho, vp):
     """
     Calculate acoustic impedance of a rock
     """
-    return rho * vp
+    return rho * vs
 
 def density (mass, volume):
     """
     Calculate density
     """
-    return mass / volume
+    return mass / volume * 1
+
+def friction():
+    """
+    Determine rock friction.
+    """
+    return 0.6
