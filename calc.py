@@ -4,7 +4,7 @@ def acoustic_impedance(rho, vp):
     """
     Calculate acoustic impedance of a rock
     """
-    return rho * vs
+    return rho * vs #adding comments
 
 def density (mass, volume):
     """
